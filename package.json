@@ -1,0 +1,55 @@
+{
+  "name": "@vshp/ui-components-vue",
+  "description": "VSHP UI components",
+  "version": "0.0.2",
+  "type": "module",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "author": "VSHP <info@vshp.online>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vshp-online/storybook-vue"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    },
+    "./styles": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "prebuild-lib": "rollup -c",
+    "build": "yarn prebuild-lib && vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "7.5.0",
+    "@storybook/addon-interactions": "7.5.0",
+    "@storybook/addon-links": "7.5.0",
+    "@storybook/blocks": "7.5.0",
+    "@storybook/testing-library": "0.2.2",
+    "@storybook/vue3": "7.5.0",
+    "@storybook/vue3-vite": "7.5.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rollup": "^4.3.0",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "sass": "^1.69.5",
+    "storybook": "7.5.0",
+    "vite": "^4.4.5",
+    "vue": "^3.3.4"
+  },
+  "peerDependencies": {
+    "vue": ">=3"
+  },
+  "packageManager": "yarn@3.6.4",
+  "files": [
+    "/dist"
+  ]
+}
