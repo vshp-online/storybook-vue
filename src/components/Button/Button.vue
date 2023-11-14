@@ -34,7 +34,6 @@
       type: Boolean,
       default: false,
     },
-    // ...extraProps,
   });
 
   const modeWidth = props.maxWidth && "btn_max-width-sm";
