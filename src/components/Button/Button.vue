@@ -46,7 +46,7 @@
 </script>
 
 <template>
-  <a v-if="href" :href="props.href" :class="renderClassNames">
+  <a v-if="props.href" :href="props.href" :class="renderClassNames">
     <slot />
   </a>
 
@@ -56,5 +56,6 @@
 </template>
 
 <style scoped lang="scss">
-  @import "../../styles/index.scss";
+  @import "@/styles/variables.scss";
+  @import "@/styles/button.scss";
 </style>

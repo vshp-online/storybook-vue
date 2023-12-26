@@ -47,5 +47,7 @@
 </template>
 
 <style scoped lang="scss">
-  @import "../../styles/index.scss";
+ @import "@/styles/variables.scss";
+ @import "@/styles/animation.scss";
+ @import "@/styles/switch.scss";
 </style>
