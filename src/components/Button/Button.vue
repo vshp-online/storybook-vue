@@ -55,7 +55,7 @@
   </button>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
   @import "@/styles/variables.scss";
   @import "@/styles/button.scss";
 </style>

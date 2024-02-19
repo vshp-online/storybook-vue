@@ -63,11 +63,11 @@
     height: 100%;
   }
 
-  :deep(.page__block-body_small) {
+  .page__block-body_small {
     max-width: 892px;
   }
 
-  :deep(.page__block-subtitle) {
+  .page__block-subtitle {
     font-weight: $ui-section-subtitle-weight;
     margin: 0 0 30px;
   }
@@ -87,7 +87,7 @@
     justify-content: center;
     text-align: center;
 
-    :deep(.page__block-body_small) {
+    .page__block-body_small {
       margin: 0 auto;
     }
   }
@@ -115,7 +115,7 @@
       margin: 0 0 50px;
     }
 
-    :deep(.page__block-subtitle) {
+    .page__block-subtitle {
       font-size: 18px;
       line-height: 1.67;
     }

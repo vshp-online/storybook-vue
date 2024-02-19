@@ -1,7 +1,7 @@
 {
   "name": "@vshp/ui-components-vue",
   "description": "VSHP UI components",
-  "version": "0.0.9",
+  "version": "0.0.26",
   "type": "module",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",

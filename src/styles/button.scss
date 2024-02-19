@@ -40,7 +40,7 @@
     color: $ui-btn-primary-color;
   }
 
-  :deep(svg) {
+  svg {
     fill: $ui-btn-primary-icon;
   }
 }
@@ -56,7 +56,7 @@
     color: $ui-btn-outline-hover;
   }
 
-  :deep(svg) {
+  svg {
     fill: $ui-btn-outline-icon;
   }
 }
@@ -73,12 +73,12 @@
 }
 
 .btn_small-icon {
-  :deep(svg) {
+  svg {
     width: 40px;
     height: 40px;
   }
 
-  :deep(span) {
+  span {
     display: inline-block;
     width: 40px;
     height: 40px;

@@ -46,8 +46,8 @@
   </button>
 </template>
 
-<style scoped lang="scss">
- @import "@/styles/variables.scss";
- @import "@/styles/animation.scss";
- @import "@/styles/switch.scss";
+<style lang="scss">
+  @import "@/styles/variables.scss";
+  @import "@/styles/animation.scss";
+  @import "@/styles/switch.scss";
 </style>

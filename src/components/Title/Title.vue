@@ -26,7 +26,7 @@
   <div v-else-if="props.type === 'block'" :class="renderClassNames"><slot /></div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
   @import "@/styles/variables.scss";
   @import "@/styles/title.scss";
 </style>
